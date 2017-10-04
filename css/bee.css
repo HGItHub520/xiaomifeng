@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ul li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+body
+{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+#div1
+{
+    position: relative;
+    width: 80%;
+    height: 90%;
+    margin: 10px auto;
+    background-color: black;
+}
+#gameBtn
+{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bolder;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0 0 -40px;
+    cursor: pointer;
+}
+
+/*积分样式*/
+#score
+{
+    width: 100px;
+    height: 35px;
+    padding-right: 25px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    text-align: center;
+    color: white;
+}
+#score span
+{
+    font-weight: bolder;
+    color: white;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+/*敌人样式*/
+#bee
+{
+    position: relative;
+    top: 15px;
+}
+.enemy1
+{
+    width: 40px;
+    height: 28px;
+    float: left;
+    background: url("../images/enemy1.jpg")no-repeat center center;
+}
+.enemy2
+{
+    width: 40px;
+    height: 28px;
+    float: left;
+    background: url("../images/enemy2.jpg")no-repeat center center;
+}
+.enemy3
+{
+    width: 40px;
+    height: 28px;
+    float: left;
+    background: url("../images/enemy3.jpg")no-repeat center center;
+}
+/*子弹*/
+.bullet
+{
+    width: 1px;
+    height: 10px;
+    overflow: hidden;
+    background: white;
+    position: absolute;
+}
+/*自己军机*/
+.air1
+{
+    width: 46px;
+    height: 60px;
+    background: url("../images/air.jpg")no-repeat center center;
+    position: absolute;
+}
